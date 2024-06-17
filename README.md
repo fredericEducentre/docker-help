@@ -2,7 +2,7 @@
 
 Commandes docker avec explication et exemples :
 
-## docker `network`
+## docker `run`
 
 Permet de créer et de démarrer un conteneur à partir d'une image.
 
