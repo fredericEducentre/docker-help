@@ -101,4 +101,3 @@ Ajoute un tag à une image existante.
 docker tag myimage:latest myuser/myimage:1.0
 ```
 *Ajoute le tag `1.0` à l'image `myimage` sous le nom `myuser/myimage`.*
-```
