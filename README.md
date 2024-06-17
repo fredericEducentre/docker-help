@@ -8,9 +8,9 @@ Permet de créer et de démarrer un conteneur à partir d'une image.
 
 **Exemple :**
 ```bash
-docker run -d --name mycontainer nginx
+docker run -d --name mycontainer -p 8080:80 nginx
 ```
-*Démarre un conteneur en arrière-plan avec l'image `nginx` et le nomme `mycontainer`.*
+*Démarre un conteneur en arrière-plan avec l'image `nginx`, le nomme `mycontainer` et mappe le port de la machine hôte avec celui du conteneur.*
 
 ## docker `network`
 
